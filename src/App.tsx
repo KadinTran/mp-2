@@ -8,7 +8,7 @@ import GameDisplay from "./components/GameDisplay.tsx";
 const ParentDiv=styled.div`
     width: 80vw;
     margin: auto;
-    border: 5px darkgoldenrod solid;
+    border: 5px #222233 solid;
 `;
 
 export default function App(){

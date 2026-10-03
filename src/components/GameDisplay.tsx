@@ -5,20 +5,20 @@ const AllGamesDiv=styled.div`
     display: flex;
     flex-flow: row wrap;    
     justify-content: space-evenly;
-    background-color: bisque;
+    background-color: #74275d;
 `;
 
 const SingleGameDiv=styled.div`
     display: flex;
     flex-direction: column;   
     justify-content: center;
-    max-width: 30%;
+    max-width: 25%;
     padding: 2%;
     margin: 1%;
-    background-color: darkorange;
-    color: black;
-    border: 3px darkred solid;
-    font: italic small-caps bold calc(2px + 1vw) Papyrus, fantasy;
+    background-color: #222233;
+    color: #ffb5b4;
+    border: 5px #b12f5d solid;
+    font: italic small-caps calc(2px + 1vw) Copperplate, monospace;
     text-align: center;
 `;
 
