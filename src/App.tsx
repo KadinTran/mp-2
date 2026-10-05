@@ -58,7 +58,7 @@ export default function App(){
             <ButtonDiv onClick={()=>setCategory("Card")}> Card games</ButtonDiv>
             <ButtonDiv onClick={()=>setCategory("Shooter")}> Shooter games</ButtonDiv>
             <ButtonDiv onClick={()=>setCategory("MMORPG")}>MMORPG Games</ButtonDiv>
-            <ButtonDiv onClick={()=>setCategory("Moba")}> MOBA games</ButtonDiv>
+            <ButtonDiv onClick={()=>setCategory("MOBA")}> MOBA games</ButtonDiv>
             <ButtonDiv onClick={()=>setCategory("Social")}>Social games</ButtonDiv>
             <ButtonDiv onClick={()=>setCategory("Sandbox")}>Sandbox games</ButtonDiv>
             <ButtonDiv onClick={()=>setCategory("PVP")}>PVP games</ButtonDiv>
