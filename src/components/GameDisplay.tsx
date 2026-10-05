@@ -18,7 +18,7 @@ const SingleGameDiv=styled.div`
     background-color: #222233;
     color: #ffb5b4;
     border: 5px #b12f5d solid;
-    font: italic small-caps calc(2px + 1vw) Copperplate, monospace;
+    font: small-caps calc(2px + 1vw) Copperplate, monospace;
     text-align: center;
 `;
 
@@ -30,7 +30,7 @@ export default function GameDisplay(props: { data: Game[] }) {
                 <SingleGameDiv key={game.id}>
                     <h1>{game.title}</h1>
                     <img src = {game.thumbnail} alt = {game.title}/>
-                    <p>Description: {game.short_description}</p>
+                    <p> {game.short_description}</p>
                     <p>Genre: {game.genre}</p>
                     <p>Publisher: {game.publisher}</p>
                     <p>Developer: {game.developer}</p>
